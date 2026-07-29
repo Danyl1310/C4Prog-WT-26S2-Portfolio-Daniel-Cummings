@@ -2,3 +2,25 @@
 nav {
     visibility: collapse;
 }
+
+/* Colours and borders */
+nav, main, footer, header {
+    background-color: lightsteelblue;
+    border: solid, 1px;
+    border-color: black;
+}
+
+.header_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_item h1 {
+    font-size: x-large;
+    margin-left: 0;
+    margin-right: auto;
+}
+.header_item a {
+    margin-left: auto;
+    margin-right: 20px;
+}
