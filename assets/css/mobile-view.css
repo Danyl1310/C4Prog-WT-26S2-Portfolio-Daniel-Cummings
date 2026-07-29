@@ -33,7 +33,15 @@ header {
     margin-right: 20px;
 }
 
+/* Main styling */
 main {
     padding: 10px;
     padding-top: 10%;
+}
+
+/* Article styling */
+.article {
+    margin: 5%;
+    padding: 2.5%;
+    border: solid, 1px;
 }
