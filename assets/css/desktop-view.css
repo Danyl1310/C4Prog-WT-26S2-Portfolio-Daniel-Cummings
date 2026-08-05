@@ -1,0 +1,26 @@
+-- temporary values
+header, .nav, main, footer {
+    background-color: lightsteelblue;
+    border: solid, 1px;
+    border-color: black;
+}
+
+--general styling
+header {
+    position: fixed;
+    width: 100%;
+}
+.header_item a {
+    visibility: collapse;
+}
+.nav {
+    width: 100%;
+}
+main {
+    padding: 10px;
+    padding-top: 10%;
+}
+footer {
+    padding-left: 20px;
+    height: 80px;
+}
