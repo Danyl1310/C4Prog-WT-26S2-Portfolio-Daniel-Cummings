@@ -41,8 +41,30 @@ main > * {
     padding: 5px;
 }
 main aside {
+    display: block;
     grid-row: 1;
     grid-column: 2;
+    padding: 0;
+}
+section {
+    background-color: white;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid 1px;
+}
+section > * {
+    margin: 0;
+    padding: 0;
+}
+section h3, section i {
+    display: block;
+    padding: 5px, 0;
+    background-color:dimgrey;
+    color: white;
+}
+section p {
+    padding: 20px;
 }
 main article{
     grid-column: 1;

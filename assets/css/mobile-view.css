@@ -41,3 +41,7 @@ main > * {
     padding: 5px;
     border: solid, 1px;
 }
+
+main aside {
+    visibility: collapse;
+}
