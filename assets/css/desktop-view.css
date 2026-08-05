@@ -1,5 +1,5 @@
 -- temporary values
-header, .nav, main, footer {
+.nav, main, footer, header {
     background-color: lightsteelblue;
     border: solid, 1px;
     border-color: black;
@@ -8,12 +8,19 @@ header, .nav, main, footer {
 --general styling
 header {
     position: fixed;
+    display: flex;
     width: 100%;
+    align-items: center;
 }
-.header_item a {
+header h1 {
+    display: inline-flex;
+}
+
+.burger {
     visibility: collapse;
 }
 .nav {
+    display: inline;
     width: 100%;
 }
 main {
