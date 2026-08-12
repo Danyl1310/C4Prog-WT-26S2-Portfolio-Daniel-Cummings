@@ -25,14 +25,17 @@ header h1 {
 }
 
 header a {
+    visibility: visible !important;
     margin-left: auto;
     margin-right: 20px;
 }
 
 /* Main styling */
 main {
+    margin: 0 !important;
     padding: 10px;
-    padding-top: 80px;
+    padding-top: 80px !important;
+    display: block !important;
 }
 
 /* Article styling */
@@ -43,5 +46,5 @@ main > * {
 }
 
 main aside {
-    visibility: collapse;
+    display: none !important;
 }

@@ -1,4 +1,4 @@
-
+@import url(../css/mobile-view.css) screen and (max-width: 600px);
 main, footer, nav, header {
     background-color: lightsteelblue;
     border: solid, 1px;
@@ -29,7 +29,7 @@ nav a {
     padding: 0 20px;
 }
 main {
-    margin: 0 15%;
+    margin: 0 10%;
     padding: 10px;
     padding-top: 100px;
     display: grid;
@@ -60,8 +60,7 @@ section > * {
 section h3, section i {
     display: block;
     padding: 0 0 0 5px;
-    background-color: black;
-    opacity: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 section p {
