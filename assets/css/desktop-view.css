@@ -1,7 +1,7 @@
 @import url(../css/mobile-view.css) screen and (max-width: 600px);
 main, footer, nav, header {
     background-color: lightsteelblue;
-    border: solid, 1px;
+    border: 1px solid black;
     border-color: black;
 }
 
@@ -37,7 +37,7 @@ main {
 }
 main > * {
     margin: 10px;
-    border: solid, 1px;
+    border: 1px solid black;
     padding: 5px;
 }
 main aside {
@@ -51,7 +51,7 @@ section {
     display: block;
     margin: 0;
     padding: 0;
-    border-bottom: solid 1px;
+    border-bottom: 1px solid black;
 }
 section > * {
     margin: 0;
