@@ -1,18 +1,20 @@
 /* Colours and borders */
 nav, main, footer, header {
-    background-color: lightsteelblue;
+    background-color: #879c80 !important;
     border: 1px solid black;
     border-color: black;
 }
 
 /* Hide Navigation */
 nav {
+    background-color: #879c80 !important;
     width: 100%;
     position: fixed;
     visibility: collapse;
 }
 
 header {
+    background-color: #007EA7 !important;
     position: fixed;
     display: flex;
     width: 100%;
@@ -41,6 +43,7 @@ main {
 
 /* Article styling */
 main > * {
+    background-color: #007EA7 !important;
     margin: 20px;
     padding: 5px;
     border: 1px solid black;
@@ -48,4 +51,8 @@ main > * {
 
 main aside {
     display: none !important;
+}
+
+footer {
+    background-color: #007EA7 !important;
 }
