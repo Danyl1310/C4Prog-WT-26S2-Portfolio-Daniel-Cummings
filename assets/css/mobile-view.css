@@ -1,5 +1,5 @@
 /* Colours and borders */
-nav, main, footer, header {
+main, footer, nav, header {
     background-color: #879c80 !important;
     border: 1px solid black;
     border-color: black;
