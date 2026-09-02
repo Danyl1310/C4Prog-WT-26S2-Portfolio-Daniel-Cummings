@@ -1,4 +1,62 @@
-@import url(../css/mobile-view.css) screen and (max-width: 600px);
+/*Mobile View Styling */
+@media screen and (max-width: 600px) {
+    /* Colours and borders */
+    main, footer, nav, header {
+    background-color: #879c80 !important;
+    border: 1px solid black;
+    border-color: black;
+    }
+    /* Hide Navigation */
+    nav {
+    background-color: #879c80 !important;
+    width: 100%;
+    position: fixed;
+    visibility: collapse;
+    }
+    /* Header Styling */
+    header {
+    background-color: #007EA7 !important;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+    }
+    header h1 {
+    display: inline;
+    font-size: 5vw;
+    }
+    header a {
+    visibility: visible !important;
+    margin-left: auto;
+    margin-right: 20px;
+    }
+    /* Main styling */
+    main {
+    margin: 0 !important;
+    padding: 10px;
+    padding-top: 80px !important;
+    display: block !important;
+    }
+    /* Article styling */
+    main > * {
+    background-color: #007EA7 !important;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    }
+    /* Hide the Aside */
+    main aside {
+    display: none !important;
+    }
+    /* Footer Styling */
+    footer {
+    background-color: #007EA7 !important;
+    }
+}
+/* Desktop View Styling */
+
+/*General Colouring*/
 * {
     color:white
 }
@@ -11,6 +69,7 @@ main, footer, nav, header {
     border-color: black;
 }
 
+/*Header Styling*/
 header {
     position: fixed;
     display: flex;
@@ -19,10 +78,11 @@ header {
     align-items: center;
     z-index: 10;
 }
-
 header a {
     visibility: collapse;
 }
+
+/*Nav Styling*/
 nav {
     background-color: #879c80;
     margin-top: 60px;
@@ -33,10 +93,11 @@ nav {
     padding-left: 20px;
     z-index: 10;
 }
-
 nav a {
     padding: 0 20px;
 }
+
+/*Main Styling*/
 main {
     margin: 0 10%;
     padding: 10px;
@@ -49,12 +110,14 @@ main > * {
     border: 1px solid black;
     padding: 5px;
 }
+/*Aside Styling*/
 main aside {
     display: block;
     grid-row: span 3;
     grid-column: 2;
     padding: 0;
 }
+/*Section Styling*/
 section {
     position: relative;
     display: flex;
@@ -97,12 +160,16 @@ section img {
 section p {
     padding: 20px;
 }
+
+/*Articles Styling*/
 main article{
     grid-column: 1;
 }
 main i {
     grid-column: span 2;
 }
+
+/*Footer Styling*/
 footer {
     background-color: #897c80;
     padding-left: 20px;
