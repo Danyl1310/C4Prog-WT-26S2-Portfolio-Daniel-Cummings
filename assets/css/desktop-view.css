@@ -1,4 +1,5 @@
 /*Mobile View Styling */
+
 @media screen and (max-width: 600px) {
     /* Colours and borders (General Styling)*/
     main, footer, nav, header {
@@ -127,7 +128,7 @@ header a {
 /*Main Styling*/
 main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 3fr 1fr;
     max-width: 960px;
     margin:0 auto;
 }
@@ -139,50 +140,35 @@ main > * {
 
 /*Aside Styling*/
 aside {
+    display: block;
     grid-column: 2;
-    grid-row: 1/3;
+    grid-row: 1 / span 5;
     padding: 0;
 }
 /*Section Styling*/
 section {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+    position:relative;
     display: block;
-    height: 200px;
+    background-color: #879c80;
+    display: block;
     margin: 0;
     padding: 0;
     border-bottom: 1px solid black;
-    overflow: hidden;
 }
 section > * {
-    position: absolute;
     margin: 0;
     padding: 0;
     z-index: 2;
 }
-section h3 {
-    top:0;
-    left:0;
-}
-section i {
-    bottom:0;
-    left:0;
-}
-section h3, section i {
+
+section h2, section i {
     display: block;
     width: 100%;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 10px;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
 }
-section img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-}
+
 section p {
     padding: 20px;
 }
@@ -190,9 +176,17 @@ section p {
 /*Articles Styling*/
 main article{
     grid-column: 1;
+    overflow: hidden;
 }
+/*Copyright msg*/
 main i {
     grid-column: span 2;
+}
+
+article img {
+    display: flex;
+    width: 100%;
+    height: auto;
 }
 
 /*Footer Styling*/
