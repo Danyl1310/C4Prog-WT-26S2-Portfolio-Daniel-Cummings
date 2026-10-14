@@ -189,6 +189,24 @@ article img {
     height: auto;
 }
 
+.api-app form{
+    display:block;
+    text-align: center;
+}
+.api-app > *, .api-app form > *, .api-app form div > *{
+    margin:auto;
+    background-color: #897c80;
+    color:white;
+}
+.api-app form {
+    background-color: #007EA7 !important;
+}
+
+.text-input {
+    background-color: white !important;
+    color:black !important;
+}
+
 /*Footer Styling*/
 .main-footer {
     display: inline-flex;
