@@ -197,6 +197,7 @@ article img {
     margin:auto;
     background-color: #897c80;
     color:white;
+    padding: 2px;
 }
 .api-app form {
     background-color: #007EA7 !important;
@@ -205,6 +206,12 @@ article img {
 .text-input {
     background-color: white !important;
     color:black !important;
+}
+
+.results > *{
+    color: white;
+    font-size: large;
+    padding: 5px;
 }
 
 /*Footer Styling*/
