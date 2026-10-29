@@ -24,6 +24,7 @@ checkboxes.forEach((checkbox) => {
                 });
             if (this.id === "joke_api") {
                 user_input.disabled = true;
+                user_input.placeholder = "Input Disabled"
             }
             else if (this.id === "barcode_api") {
                 user_input.placeholder = "Enter a Text or URL";
