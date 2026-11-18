@@ -14,13 +14,13 @@
       </a>
       <nav class="flex flex-col justify-between p-6">
         <ul class="flex items-center mb-4 title-font md-mb-0 gap-6">
-          <li><a class="text-white-500 hover:text-blue-500" href=".">Home</a></li>
+          <li><a class="text-white-500 hover:text-indigo-500" href=".">Home</a></li>
           <li><p>|</p></li>
-          <li><a class="text-white-500 hover:text-blue-500" href="phase-1">Phase 1</a></li>
+          <li><a class="text-white-500 hover:text-indigo-500" href="phase-1">Phase 1</a></li>
           <li><p>|</p></li>
-          <li><a class="text-white-500 hover:text-blue-500" href="phase-2">Phase 2</a></li>
+          <li><a class="text-white-500 hover:text-indigo-500" href="phase-2">Phase 2</a></li>
           <li><p>|</p></li>
-          <li><a class="text-white-500 hover:text-blue-500" href="phase-3">Phase 3</a></li>
+          <li><a class="text-white-500 hover:text-indigo-500" href="phase-3">Phase 3</a></li>
         </ul>
       </nav>
     </header>
@@ -35,7 +35,7 @@
           <li class="bg-gray-800 text-gray-200 p-4 -m-4 mb-0">
             <h4 class="text-bold text-xl">Phase-1</h4>
           </li>
-          <li class="-m-4 mb-2 max-h-48 overflow-hidden">
+          <li class="-m-4 mb-2 max-h-48 overflow-hidden border-2 border-gray-500">
             <img class="w-full" src="../assets/media/phase-1-screenshot.png" alt="Phase1-Screenshot">
           </li>
           <li class="flex flex-col gap-4">
@@ -46,6 +46,49 @@
             <p>Card Footer Content</p>
           </li>
         </ul>
+      </article>
+      <article class="w-full border border-gray-100 shadow p-4 flex flex-col gap-4">
+        <header class="-mx-4 mt-4">
+          <h3 class="text-2xl bg-black text-gray-200 p-2 pb-4 w-full">
+            Basic Form
+          </h3>
+        </header>
+        <form class="flex flex-col gap-4">
+          <div class="flex flex-row gap-4">
+            <label class="w-1/6" for="inputDemo">
+              Text Input:
+            </label>
+            <input id="inputDemo" class="w-5/6" type="text">
+          </div>
+          <div class="flex flex-row gap-4">
+            <label class="w-1/6" for="numberDemo">
+              Number Input:
+            </label>
+            <input id="numberDemo" class="w-5/6" type="number">
+          </div>
+          <div class="flex flex-row gap-4">
+            <label class="w-1/6" for="passwordDemo">
+              Password Input:
+            </label>
+            <input id="passwordDemo" class="grow" type="password">
+          </div>
+          <div class="flex flex-row gap-4">
+            <label class="w-1/6" for="textDemo">
+              Text Area:
+            </label>
+            <textarea id="textDemo" class="w-5/6" type="text"></textarea>
+          </div>
+          <div class="flex flex-row gap-4">
+            <div class="w-1/6"></div>
+            <button class="w-1/6 p-1 bg-gray-300 text-black hover:bg-gray-600 hover:text-white 
+            transition ease-in-out duration-350">
+              Save
+            </button>
+            <button class="w-1/6 p-1 bg-gray-300 text-black hover:bg-gray-600 hover:text-white transition ease-in-out duration-350">
+              Cancel
+            </button>
+          </div>
+        </form>
       </article>
     </main>
     <footer class="text-gray-400 bg-gray-800 body-font w-full container
@@ -59,9 +102,9 @@
       </section>
       <section>
         <ul class="flex flex-wrap text-sm pl-6 ml-6 text-base border-l border-gray-400 gap-3">
-          <li><a href="#">North Metro TAFE</a></li>
-          <li><a href="#">ScreenCraft Dev Sites</a></li>
-          <li><a href="#">Copyright</a></li>
+          <li><a class="hover:text-indigo-500" href="#">North Metro TAFE</a></li>
+          <li><a class="hover:text-indigo-500" href="#">ScreenCraft Dev Sites</a></li>
+          <li><a class="hover:text-indigo-500" href="#">Copyright</a></li>
         </ul>
       </section>
     </footer>
